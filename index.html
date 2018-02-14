@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>
+            The Few
+        </title>
+        <link rel="stylesheet" type="text/css" href="styles/main.css">
+        <script src="script/jquery-2.2.1.min.js"></script>
+        <script src="script/jquery.scrollify.js"></script>
+        <script>
+            $(function() {
+              $.scrollify({
+                section : ".splash",
+                sectionName : "section-name",
+                interstitialSection : "",
+                easing: "easeOutExpo",
+                scrollSpeed: 1100,
+                offset : 0,
+                scrollbars: true,
+                standardScrollElements: "",
+                setHeights: true,
+                overflowScroll: true,
+                updateHash: true,
+                touchScroll:true,
+                before:function() {},
+                after:function() {},
+                afterResize:function() {},
+                afterRender:function() {}
+              });
+            });
+        </script>
+    </head>
+    <body>
+        <div class="navbar">
+            <ul class="nav">
+                <li class="splashbtn">
+                    Splash
+                </li>
+                <li class="mainbtn">
+                    Main
+                </li>
+                <li class="charsbtn">
+                    Characters
+                </li>
+                <li class="policybtn">
+                    Policy
+                </li>
+                <li class="optionsbtn">
+                    Options
+                </li>
+                <li class="aboutbtn">
+                    About
+                </li>
+            </ul>
+        </div>
+        <div class="splash">
+            <p>
+                The Few
+            </p>
+        </div>
+        <div class="main">
+            This is the main content
+        </div>
+    </body>
+</html>
